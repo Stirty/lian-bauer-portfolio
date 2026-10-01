@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Responsive frontend demonstration from Lian Bauer.">
+  <title>Frontend demo — Lian Bauer</title>
+  <style>
+    :root { color-scheme: dark; font: 16px/1.5 system-ui, sans-serif; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0d1725; color: #f4f7fb; }
+    main { width: min(58rem, calc(100% - 2rem)); padding: 4rem 0; }
+    .eyebrow { color: #7cc4ff; letter-spacing: .12em; font-size: .75rem; font-weight: 800; }
+    h1 { max-width: 12ch; font-size: clamp(3rem, 10vw, 7rem); line-height: .9; margin: .5rem 0 1rem; }
+    p { max-width: 38rem; color: #b8c8da; font-size: 1.2rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
+    a { padding: .8rem 1rem; border-radius: .7rem; color: #08111d; background: #7cc4ff; font-weight: 800; text-decoration: none; }
+    a.secondary { color: #f4f7fb; background: #24364b; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">SYNTHETIC DEMONSTRATION — AFTER</p>
+    <h1>Reliable service for busy teams</h1>
+    <p>One clear next step, designed to stay usable on small screens.</p>
+    <nav class="actions" aria-label="Demo actions"><a href="#contact">Request a quote</a><a class="secondary" href="#work">See our work</a></nav>
+    <p id="contact">Responsive implementation is tested at narrow viewports and handed off with evidence.</p>
+  </main>
+</body>
+</html>

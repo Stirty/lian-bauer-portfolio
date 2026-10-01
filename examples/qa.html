@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sample responsive QA report from Lian Bauer.">
+  <title>QA sample — Lian Bauer</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <main class="shell">
+    <p class="kicker">SAMPLE — SYNTHETIC DEMONSTRATION</p>
+    <h1>Responsive QA report</h1>
+    <article>
+      <h2>S2: mobile CTA row overflows the viewport</h2>
+      <p><strong>Environment:</strong> Chromium, 390 × 844 viewport, Windows 11 local fixture.</p>
+      <h3>Reproduce</h3>
+      <ol><li>Open the demo at 390px wide.</li><li>Scroll to the hero CTA row.</li><li>Observe the fixed-width buttons and horizontal overflow.</li></ol>
+      <h3>Expected / actual</h3>
+      <p><strong>Expected:</strong> controls fit, remain readable and preserve a clear primary action.</p>
+      <p><strong>Actual:</strong> the row exceeds the viewport; the primary action is partly hidden.</p>
+      <h3>Recommended fix</h3>
+      <p>Use a responsive flex/grid layout, allow buttons to wrap or stack, and re-test at 320px, 390px and 430px.</p>
+      <p class="truth">This is a demonstration fixture, not a client result.</p>
+    </article>
+    <p><a href="../index.html">← Back to services</a></p>
+  </main>
+</body>
+</html>
